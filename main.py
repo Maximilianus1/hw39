@@ -1,7 +1,5 @@
 import numpy as np
-import random
-products = np.array([random.randint(0,1000000) for i in range(100)])
-print(products)
+products = np.array([499256,  20337, 289644,  86648, 976043, 420321, 644902, 455182 ,792308 ,905488, 98236, 379095, 976232, 240981, 533739, 115667, 557237, 796682,  81887, 484145])
 min= np.min(products)
 max =  np.max(products)
 mean = np.mean(products)
